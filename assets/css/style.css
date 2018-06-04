@@ -1,0 +1,93 @@
+body {
+  background-image: url(../images/background.png);
+  margin-bottom: 60px;
+}
+
+.bg-custom-dark {
+  background-color:#78cdc7;
+  padding: auto 10px;
+}
+
+.nav-link:not(last-child) {
+  border-right: 1px solid #78cdc7;
+}
+
+#aboutme, #connect {
+  color: #78cdc7;
+  padding: 10px;
+  margin-bottom: 200px;
+  box-sizing: border-box;
+}
+
+#aboutme h1, #connect h1 {
+  font-size: 24px;
+  border-bottom: 1px solid #78cdc7;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#aboutme p {
+  padding: 10px;
+}
+
+#connect {
+  height: fit-content;
+  width: 100%;
+}
+
+.border {
+  border-color: #78cdc7;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+  color: #78cdc7
+}
+
+#myPic {
+  float: left;
+  padding: 10px;
+}
+
+.social {
+  width: 78px;
+  height: 78px;
+  margin-top: 8px;
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+ .column {
+  margin-bottom: 80px;
+} 
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+  color: White;
+  text-decoration: none;
+  position: absolute;
+  top: 165px;
+  background-color: #78cdc7;
+  width: 275px;
+  text-align: center;
+  z-index: 998;
+  height: 30px;
+  /* padding-top: 5px; */
+}
+
+.column>a:hover {    
+  box-shadow: 0px -25px 400px 25px rgba(255, 255, 255, 0.67);
+}
