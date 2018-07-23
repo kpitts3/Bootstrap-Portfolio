@@ -79,13 +79,12 @@ html {
   color: White;
   text-decoration: none;
   position: absolute;
-  top: 165px;
+  top: 100px;
   background-color: #78cdc7;
-  width: 275px;
+  width: 250px;
   text-align: center;
   z-index: 998;
   height: 30px;
-  /* padding-top: 5px; */
 }
 
 .column>a:hover {    
